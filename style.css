@@ -10,6 +10,7 @@ p {
     font-family: Source Han Sans JP !important;
     color: var(--foreground);
     font-size: 15px;
+    padding: 1px 0 1px 0;
 }
 
 a {
@@ -27,7 +28,7 @@ input:focus::placeholder {
 }
 
 #links {
-    padding-left: 5%;
+    padding-left: 15%;
     margin-top: 3em;
     margin-bottom: 3em;
 }
@@ -53,14 +54,16 @@ input:focus::placeholder {
 }
 
 #search-bar {
-    width: 90%;
+    width: 80%;
     border-bottom: 1px solid var(--color2);
     border-top: 0;
     border-left: 0;
     border-right: 0;
     color: var(--color2);
     padding: 10px;
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-left: 10%;
     background-color: transparent;
     font-size: 15px;
     text-align: center;
