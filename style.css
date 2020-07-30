@@ -87,6 +87,6 @@ input:focus::placeholder {
     width: 700px;
     border: 1px solid var(--color3);
     position: relative;
-    top: 35%;
+    top: 30%;
     margin: 0 auto;
 }
