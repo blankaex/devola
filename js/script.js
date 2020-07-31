@@ -1,9 +1,9 @@
 $(document).ready(function() {
 
     $(document).keypress(function(event) {
-      if ( event.key == 's' && document.activeElement != document.getElementById("search-bar") ) {
-        document.getElementById("search-bar").focus();
-        document.getElementById("search-bar").value = "";
+      if ( event.key == 's' && $(document).activeElement != $("#search-bar") ) {
+        $("#search-bar").focus();
+        $("#search-bar").value = "";
       }
     });
 
